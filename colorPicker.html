@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--CSS part for the site-->
+    <link type="text/css" rel="stylesheet" href="css/css_main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Navbar for the site-->
+    <!--<nav class="navbar navbar-default navbar-fixed-top">-->
+        <!--<div class="container">-->
+            <!--<div class="navbar-header">-->
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#moje_manu"-->
+                        <!--aria-expanded="false">-->
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+                <!--&lt;!&ndash;Company name and logo&ndash;&gt;-->
+                <!--<a href="#" class="navbar-brand text-uppercase">Startap</a>-->
+            <!--</div>-->
+
+            <!--<div class="collapse navbar-collapse" id="moje_manu">-->
+                <!--<ul class="nav navbar-nav btn-xs">-->
+                    <!--<li><a href="#">About Us</a></li>-->
+                    <!--<li><a href="#">Contact Us</a></li>-->
+                <!--</ul>-->
+
+                <!--<ul class="nav navbar-nav navbar-right btn-xs">-->
+                    <!--<li><a href="#">Sign Up</a></li>-->
+                    <!--<li><a href="#">Login</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</nav>-->
+    <!--&lt;!&ndash;Navbar end &ndash;&gt;-->
+    <!--Rest of the body-->
+
+    <div class="gFont">
+
+        <h1>RGB Color Game</h1>
+        <h2 id="titleH2">Guess what <p><span id="pickedColor">RGB</span></p> color is</h2>
+        <div id="stripe">
+            <button id="btnResetGame">New Colors</button>
+            <span id="gameFeedback"></span>
+            <button class="gameMode" id="btnGameModeEasy">Easy</button>
+            <button class="gameMode" id="btnGameModeHard">Hard</button>
+
+        </div>
+
+        <div id="colorDivsGroup">
+            <div class="colorDivs"></div>
+            <div class="colorDivs"></div>
+            <div class="colorDivs"></div>
+            <div class="colorDivs"></div>
+            <div class="colorDivs"></div>
+            <div class="colorDivs"></div>
+        </div>
+
+    </div>
+
+    <!--Javascript part for the site-->
+    <script src="js/js_main.js"></script>
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/colorPicker.js"></script>
+</body>
+</html>
